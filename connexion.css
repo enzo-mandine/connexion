@@ -1,5 +1,5 @@
 html {
-    min-height: 300em;
+    min-height: 100em;
 }
 
 body {
@@ -13,13 +13,13 @@ body {
     top: 0;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100%;    
+    background-color: rgba(161, 0, 161, 0.5);
 }
 
 header {
     margin-bottom: 20em;
 }
-
 #navbar {
     display: flex;
     flex-direction: row;
@@ -34,6 +34,10 @@ header {
 #navbar2 a {
     color: black;
     text-decoration: none;
+}
+
+#navbar2align {
+    margin-top: 1em;
 }
 
 nav a {
@@ -74,7 +78,7 @@ nav {
     color: rgb(161, 0, 161);
 }
 
-span:hover {
+#logo span:hover {
     color: rgb(161, 0, 161);
 }
 
@@ -94,6 +98,10 @@ span:hover {
     z-index: -10;
 }
 
+#aligncenter {
+    text-align: center;
+}
+
 #bg img {
     position: absolute;
     top: 0;
@@ -108,7 +116,22 @@ span:hover {
 #article1 {
     display: flex;
     background-color: white;
-    height: 20em;
+}
+
+#txtarticle1 {
+    padding: 1em;
+}
+
+strong {
+    color: rgb(161, 0, 161);
+}
+
+strong:hover {
+    color: rgb(255, 212, 72);
+}
+
+#testlink {
+    text-decoration-color: black;
 }
 
 #nailedit {
@@ -172,7 +195,7 @@ span:hover {
 }
 
 footer {
-    background-color: grey;
+    background-color: rgba(161, 0, 161, 0.5);
     position: fixed;
     bottom: 0;
     height: 3em;
@@ -184,3 +207,4 @@ footer {
 #txtfooter  {
     display: flex;
     flex-direction: row;
+}
