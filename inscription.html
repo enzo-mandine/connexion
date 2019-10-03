@@ -1,0 +1,124 @@
+<!DOCTYPE htmml>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Langue latines -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Compatibilitée IE/edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Rescal en fonction de la taille d'ecran-->
+    <link href="connexion.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Poppins&display=swap" rel="stylesheet">
+    <title>Accueil</title>
+</head>
+<div id="bg">
+    <img src="bg.jpg" alt="">
+</div>
+
+<body>
+    <header>
+        <div id="headernav">
+            <div id="logo">
+                <p><span>T</span><span>h</span><span>e</span>
+                    <span>m</span><span>i</span><span>g</span><span>h</span><span>t</span><span>y</span>
+                    <span>8</span><span>0</span><span>"</span></p>
+            </div><!-- fin div logo-->
+            <div id="navbar">
+                <nav>
+                    <a href="connexion.html">Acceuil</a>
+                    <a href="../work-in-progress/work-in-progress.html">Agenda</a>
+                    <a href="../work-in-progress/work-in-progress.html">Evenement</a>
+                </nav>
+            </div>
+            <div id="input">
+                <div id="login">
+                    <label for="mail">login / password</label>
+                    <input type="mail" id="mail" name="mail" placeholder="ABCDEF@ABCDEF">
+                    <input type="password" id="passwordinput" name="password" placeholder="**********">
+                    <input type="submit" value="login">
+                    <a href="inscription.html">Sign-in</a><a href="motdepasse.html">Change password</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="register">
+            <label for="login">Pseudo</label>
+            <input type="texte" id="nomdecompte" name="login" placeholder="Funkycops80" required>
+            <label for="motdepasse">Mot de passe</label>
+            <input type="password" id="motdepasse" name="motdepasse" placeholder="******"required>
+            <label for="motdepasseconfirm">Confirmez votre mot de passe</label>
+            <input type="password" id="motdepasseconfirm" name="motdepasseconfirm" placeholder="******"required>
+            <label for="datedenaissance">Date de naissance</label>
+            <input type="date" id="datedenaissance" name="datedenaissance" placeholder="JJ/MM/AA"required>
+            <label for="nom">Nom</label>
+            <input type="texte" id="nom" name="nom" placeholder="DUPONT"required>
+            <label for="prenom">Prénom</label>
+            <input type="texte" id="prenom" name="prenom" placeholder="Patrick"required>
+            <label for="mail">Mail</label>
+            <input type="mail" id="mail" name="mail" placeholder="ABCDEF@ABCDEF"required>
+            <label for="sexe">Sexe</label>
+            <input list="sexeHF" id="sexe" name="sexe" placeholder="Homme/Femme">
+            <datalist id="sexeHF">
+                <option value="Homme">
+                <option value="Femme">
+            </datalist>
+            <label for="lvl">Niveau d'études</label>
+            <input list="lvlqcm" id="lvl" name="lvl" placeholder="BAC">
+            <datalist id="lvlqcm">
+                <option value="Niveau V">
+                <option value="Niveau IV">
+                <option value="Niveau III>">
+                <option value="Niveau II">
+                <option value="Niveau I">
+            </datalist>
+            <label for="tel">Téléphone</label>
+            <input type="tel" id="tel" name="tel" placeholder="0123456789"required>
+            <label for="hobbies">Cochez ce qu'il vous plait</label>
+            <div id="checkbox">
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Musique</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Cinéma</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Jeux video</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Dance</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Sport</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Gastronomie</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Informatique</label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                <label for="music">Lecture</label>
+            </div>
+            <label for="description">Décrivez-vous</label>
+            <textarea id="description" name="description"></textarea>
+            <input type="submit" value="Envoyer">
+
+        </div>
+    </main>
+    <footer>
+        <div id="logodev">
+            <div id="align">
+                <img id="logodevpng" src="LOGO-NOIR-ET-BLANC.png" alt="Equipe de dévellopement">
+            </div>
+            <div id="align2">
+                <p id="legaletliens">
+                    <a href="https://www.laplateforme.io" id="testlink">Laplateforme.io 2019</a>
+                </p>
+            </div>
+        </div>
+        <div id="navbar2">
+            <div id="navbar2align">
+                <a href="Acceuil.html">Acceuil</a>
+                <a href="Acceuil.html">Agenda</a>
+                <a href="Acceuil.html">Evenement</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
